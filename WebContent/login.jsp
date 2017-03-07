@@ -2,12 +2,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-
+<title>iERP Test Management Tool </title>
 </head>
 <body style="vertical-align:middle">
 	<s:form action="/ierp/login.action" styleId="LoginForm">
 		<div style="height: 5px;" >
-			<table align="center" border="2" >
+			<table align="center" border="1" >
 				<tr>
 					<td><s:select label="User Type" headerKey="-1"
 							headerValue="Select Role" list="#{'1':'Builder', '2':'Executor'}"
@@ -21,7 +21,7 @@
 					<td><s:password lable="Password" key="password" /></td>
 				</tr>
 				<tr`>
-				<td colspan="2" align="left" >
+				<td colspan="2" align="center" >
 				<s:submit /></td></tr>
 			</table>
 
